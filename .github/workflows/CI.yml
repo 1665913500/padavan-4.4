@@ -58,7 +58,7 @@ on:
         description: '自訂預設配置 JSON (Custom Default Configuration Wi-Fi/Passwords/IP)'
         required: true
         type: string
-        default: '{"lanip":"192.168.0.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"CJH","wifi2gpsk":"02200595","wifi5gssid":"CJH","wifi5gpsk":"02200595"}'
+        default: '{"lanip":"192.168.2.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"CJH","wifi2gpsk":"02200595","wifi5gssid":"CJH","wifi5gpsk":"02200595"}'
       
       toolchain_select:
         description: "選擇編譯工具鏈 (Select toolchain)"
