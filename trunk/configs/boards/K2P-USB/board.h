@@ -19,3 +19,7 @@
 #define BOARD_NUM_ETH_LEDS		0
 #define BOARD_NUM_UPHY_USB3		1
 #define BOARD_USB_PORT_SWAP		0
+// 覆盖默认内存大小，512MB 对应的十六进制值
+#define CONFIG_MEM_SIZE         0x20000000
+// 启用大内存支持（部分老版本内核需显式定义）
+#define CONFIG_SYS_SDRAM_SIZE   0x20000000
